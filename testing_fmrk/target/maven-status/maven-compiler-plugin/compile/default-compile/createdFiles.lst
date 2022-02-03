@@ -1,0 +1,11 @@
+web\com\bdd\lib\WebDriverManager.class
+web\com\bdd\base\Middleware.class
+web\com\bdd\generic\WebDriverDOM.class
+web\com\bdd\generic\Parameters.class
+web\com\bdd\generic\HelperOS.class
+web\com\bdd\util\Errors.class
+web\com\bdd\jxray\dom\JXrayServiceDom.class
+web\com\bdd\util\UtilWeb.class
+web\com\bdd\generic\HelperProperties.class
+web\com\bdd\jxray\help\HelperCredentials.class
+web\com\bdd\jxray\help\JiraParameters.class

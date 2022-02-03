@@ -1,0 +1,178 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Reservar viajes en tren",
+        "description": "",
+        "id": "automatización-de-reservas-de-tickets-en-www.perurail.com;reservar-viajes-en-tren",
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15951338900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que carga la pagina perurail \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 30
+                }
+              ],
+              "location": "PerurailStepDefinition.que_carga_la_pagina_perurail(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1375953700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "selecciono el destino de \"OllantayTambo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OllantayTambo",
+                  "offset": 26
+                }
+              ],
+              "location": "PerurailStepDefinition.selecciono_el_destino_de(String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1156109000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "selecciono la ruta de \"ruta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ruta",
+                  "offset": 23
+                }
+              ],
+              "location": "PerurailStepDefinition.selecciono_la_ruta_de(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 4415801200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "ejecuto boton Find Train",
+            "match": {
+              "location": "PerurailStepDefinition.ejecuto_boton_Find_Train()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 697751500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "escojo route",
+            "match": {
+              "location": "PerurailStepDefinition.escojo_route()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2370843800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "ejecuto boton buscar",
+            "match": {
+              "location": "PerurailStepDefinition.ejecuto_boton_buscar()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 15550459200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "selecciono dia de ida",
+            "match": {
+              "location": "PerurailStepDefinition.selecciono_dia_de_ida()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 15682832200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "selecciona dia de regreso",
+            "match": {
+              "location": "PerurailStepDefinition.selecciona_dia_de_regreso()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 888846200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "selecciono boton continuar",
+            "match": {
+              "location": "PerurailStepDefinition.selecciono_boton_continuar()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 15658528200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "valido mensaje",
+            "match": {
+              "location": "PerurailStepDefinition.valido_mensaje()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PERU_RAIL"
+          },
+          {
+            "name": "@PERU_RAIL_OK"
+          }
+        ]
+      }
+    ],
+    "name": "AUTOMATIZACIÓN de reservas de tickets en www.perurail.com",
+    "description": "",
+    "id": "automatización-de-reservas-de-tickets-en-www.perurail.com",
+    "keyword": "Característica",
+    "uri": "src/test/resources/web/perurail.feature",
+    "tags": [
+      {
+        "name": "@PERU_RAIL",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,415 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <meta name="viewport" content="initial-scale=1">
+
+	<title>PERURAIL - Machu Picchu awaits for you!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="og:image" content="https://www.perurail.com/wp-content/uploads/2019/08/miniatura-redes.jpg">
+<meta property="og:description" content="Book your train tickets to Machu Picchu. Information about schedules, train stations and trains to Cusco, Puno and Arequipa.">
+    <!-- CSS -->
+    <link href="/ecommerce/www/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"><link href="/ecommerce/www/css/shadowbox.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/ecommerce/www/css/typography.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/ecommerce/www/css/main.css?v=1643908421" media="screen" rel="stylesheet" type="text/css">
+<link href="/ecommerce/www/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">    <!-- /.CSS -->
+
+    <!-- Google Tag Manager -->
+    <script async="" src="https://a.clarity.ms/s/0.6.31/clarity.js"></script><script async="" src="https://www.clarity.ms/tag/9fyn27ucmh?ref=gtm2"></script><script src="https://connect.facebook.net/signals/config/220375522610602?v=2.9.52&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://bat.bing.com/bat.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-W8WG5M"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-W8WG5M');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <!-- Jquery -->
+    <script type="text/javascript" src="/ecommerce/www/js/jquery/jquery-1.11.1.min.js"></script>
+    <!-- /.Jquery -->
+
+    <script type="text/javascript">
+        var basePath = '/ecommerce/www';
+    </script>
+
+    <!-- other javascript libraries -->
+    <script type="text/javascript" src="/ecommerce/www/js/jquery/conditionizr.min.js"></script>
+<script type="text/javascript" src="/ecommerce/www/js/jquery/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="/ecommerce/www/js/tag-manager.js"></script>
+<script type="text/javascript" src="/ecommerce/www/js/jquery/jquery.blockUI-2.70.0.js"></script>
+<script type="text/javascript" src="/ecommerce/www/js/jquery/shadowbox.js"></script>
+<script type="text/javascript" src="/ecommerce/www/js/main.js?v=1643908421"></script>
+<script type="text/javascript" src="/ecommerce/www/js/general.js?v=1643908421"></script>
+<script type="text/javascript" src="/ecommerce/www/js/jquery/jquery.validate-1.6.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT3G9r0Mptan-eUcY-ZxYPKj1xAY-OThI"></script>
+<script type="text/javascript" src="/ecommerce/www/js/calendario/index.php?formato=DMY"></script>
+<script type="text/javascript" src="/ecommerce/www/js/tren/validator-form-buscar.js"></script>
+<script type="text/javascript" src="/ecommerce/www/js/tren/buscar.js?v=1643908421"></script>
+<script type="text/javascript">
+    //<!--
+        calendario_fecha_inicio   = '03/02/2022';
+    calendario_fecha_termino  = '31/12/2023';
+    $.seleccioneDestino       = 'Select route';
+    $.numCupoMaximoVenta      = '9';
+    $.fechaViajeMensaje       = 'The departure date can not be later than the date back, please select a departure date.';
+    $.ninosConInfantesMensaje = 'De viajar con dos infantes y adicionalmente niños, los niños deberán ser acompañados por un segundo adulto responsable.';
+    var redirection_data = {"isRedirection":true,"serviceType":"1","tripType":"RT","service":"x","destinationSelectedId":1,"routeSelectedId":"61","routes":[{"ID_RUTA":"12","NOM_RUTA":"Cusco > Machu Picchu"},{"ID_RUTA":"43","NOM_RUTA":"Ollantaytambo > Machu Picchu"}],"departureDate":"03\/02\/2022","returnDate":"03\/02\/2022","adults":"2","children":"0","activaredida":"1","activaredret":"0"};
+    var txtPopupMessageBae = '<img src="/ecommerce/www/img/logo-bae.png" height="65px"><p style="text-align: justify; color: #717171;">Belmond Andean Explorer is South America’s first luxury train that combines genuine daytime getaways with sleeping accommodations at night, all while traversing the Peruvian Andes. The Belmond Andean Explorer train travels along one of the highest train routes in the world, crossing through breathtaking cities on its way from Cusco to Lake Titicaca (Puno) and Arequipa, and exploring natural wonders and ancient kingdoms on one and two-night trips. The Belmond Andean Explorer train does not run in February.</p>';
+    var txtPopupMessageTiticaca = '<img src="/ecommerce/www/img/titicaca-train-logo.jpg"><p style="text-align: justify; color: #717171;">Crossing the Andes on the Cusco – Puno – Cusco route and visiting Lake Titicaca is an unforgettable experience all on its own. But doing it aboard the PeruRail Titicaca Train will make this a truly once-in-a-lifetime adventure. The PeruRail Titicaca Train was created to provide passengers with all the luxuries they could want in a trip, while offering them a chance to forge a mystical connection with nature.</p>';
+
+    //-->
+</script>    <!-- /.other javascript libraries -->
+
+    <!-- template generator - Mustache -->
+    <script type="text/javascript" src="/ecommerce/www/js/mustache.min.js"></script>
+    <!-- /.template generator - Mustache -->
+
+    <!-- global javascript variables -->
+    <script type="text/javascript">
+        $.language = 'en';
+        $.cms_url = 'https://pax4.perurail.com';
+        $.idSesion = 'a4be2038d5bae0414270092fa26ba308';
+        $.noRealizoExito = 'Your order cannot be done, please try again later';
+        $.cargando = 'Loading...';
+        $.cantidadPasajerosMensaje = 'You can only purchase tickets for up to 9 passengers.';
+        $.numAdicionalCupoInfantes = '1';
+        $.mensajeErrorInfantes = 'Si viajan dos Infantes con un adulto responsable, uno de los Infantes, por motivos de seguridad, necesitará un asiento adicional, por el cual se pagará 50% del precio del pasaje.\nEl adulto responsable deberá contar con una silla especial para viaje de bebé, a fin de colocarla en el asiento que corresponda al segundo Infante.';
+        $.mensajeSesionExpirada = 'Your session has expired, please realize a new search.';
+
+        // Varianles globales para Calendario
+        calendario_mes[0] = 'JANUARY';
+        calendario_mes[1] = 'FEBRUARY';
+        calendario_mes[2] = 'MARCH';
+        calendario_mes[3] = 'APRIL';
+        calendario_mes[4] = 'MAY';
+        calendario_mes[5] = 'JUNE';
+        calendario_mes[6] = 'JULY';
+        calendario_mes[7] = 'AUGUST';
+        calendario_mes[8] = 'SEPTEMBER';
+        calendario_mes[9] = 'OCTOBER';
+        calendario_mes[10] = 'NOVEMBER';
+        calendario_mes[11] = 'DECEMBER';
+        calendario_dia[0] = 'MO';
+        calendario_dia[1] = 'TU';
+        calendario_dia[2] = 'WE';
+        calendario_dia[3] = 'TH';
+        calendario_dia[4] = 'FR';
+        calendario_dia[5] = 'SA';
+        calendario_dia[6] = 'SU';
+        $.desFormatoFecha = 'd/m/Y';
+    </script>
+    <!-- /.global javascript variables -->
+
+    <!--[if lt IE 9]>
+    <script src="/js/min/html5shiv.min.js"></script>
+    <![endif]-->
+<script src="https://bat.bing.com/p/action/134621220.js" type="text/javascript" async="" data-ueto="ueto_bd0a7fd86d"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/47/7a/intl/es_419/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/47/7a/intl/es_419/util.js"></script></head>
+
+<!-- class for belmond -->
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8WG5M"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<section id="wrapper">
+    <header>
+        <article id="lang">
+            <a href="" class="carrito-menu">
+                <img class="icon-car" src="/ecommerce/www/img/carrito4.png">
+                <img class="icon-car icon-car-belmont" src="/ecommerce/www/img/carrito3.png">
+            </a>
+                            |
+                <span>
+                        en                    <div class="logo-tren-normal">
+                          <img src="/ecommerce/www/img/flecha3.png">
+                        </div>
+                        <div class="logo-belmont">
+                          <img src="/ecommerce/www/img/flecha3.png">
+                        </div>
+                    </span>
+                
+                                    <a href="/ecommerce/www/?idioma=es" class="none" style="top:49px">es</a>
+                    <br>
+                                                        <a href="/ecommerce/www/?idioma=en" class="none" style="top:66px">en</a>
+                    <br>
+                                                        </article>
+        <article id="logo">
+            <div class="logo-tren-normal">
+                <a href="/ecommerce/www/">
+                    <img src="/ecommerce/www/img/perurail-logo.png">
+                </a>
+            </div>
+            <div class="logo-belmont">
+                <a href="/ecommerce/www/">
+                    <img src="/ecommerce/www/img/perurail-logo.png">
+                </a>
+            </div>
+        </article>
+    </header>
+
+    <!-- content -->
+    <script src="//cdn.polyfill.io/v2/polyfill.min.js"></script>
+
+
+<section id="content">
+    <article class="pasos">
+        
+        <div class="active">
+            <a href="/trains/buscar">            <span>1</span>
+            <div id="text_menu_1">SEARCH</div>
+            </a>        </div>
+                    <div class="espacio"><hr></div>
+                
+        <div>
+                        <span>2</span>
+            <div id="text_menu_2">TRAINS</div>
+                    </div>
+                    <div class="espacio"><hr></div>
+                
+        <div>
+                        <span>3</span>
+            <div id="text_menu_3">PASSENGERS DATA</div>
+                    </div>
+                    <div class="espacio"><hr></div>
+                
+        <div class="last">
+                        <span>4</span>
+            <div id="text_menu_4">CONFIRMATION AND PAYMENT</div>
+                    </div>
+            </article>    <section id="motor">
+        <h1>Online Booking</h1>
+        <div class="clearfix">
+            <div class="busqueda">
+                <form action="/ecommerce/www/trains/buscar" method="post" enctype="application/x-www-form-urlencoded" id="formTrenBuscar">
+                    <div class="center">
+                        <div><span>Welcome to Perurail's booking engine. For more information on our services please visit<a href="https://www.perurail.com"> <ins>Perurail.com</ins></a> </span></div>
+						<div>
+															    <input type="hidden" value="x" id="service" name="service">
+                            <label for="busquedaRegreso-1" class="tipo-vuelo">
+                                    <input type="radio" class="required digit valid" value="RT" id="busquedaRegreso-1" name="idViajeTipo">
+                                    <span id="text_round_trip">Round trip</span>
+                            </label>&nbsp;
+
+                            <label for="busquedaRegreso-0">
+                                    <input type="radio" class="required digit" value="OW" id="busquedaRegreso-0" name="idViajeTipo">
+                                    <span id="text_one_way">One way</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="required" for="idDestino" id="text_destination">Destination (City)</label>
+                            <select class="required digit total valid" id="idDestino" name="idDestino" style="">
+                                                                    <option value="1">Machu Picchu</option>
+                                                                    <option value="2">Ollantaytambo</option>
+                                                                    <option value="3">Cusco</option>
+                                                                    <option value="4">Puno</option>
+                                                                    <option value="6">Arequipa</option>
+                                                            </select>
+                        </div>
+                        <div>
+                            <label class="required" for="idRuta" id="text_route">Route (Depart &gt; Arrive)</label>
+                                <select class="required digit total valid" id="idRuta" name="idRuta" style=""><option value="">Select route</option><option value="12">Cusco &gt; Machu Picchu</option><option value="43">Ollantaytambo &gt; Machu Picchu</option></select>
+                        </div>
+                        <div style="display: none;">
+                            <label class="" for="trainType" id="text_traintype">Train:</label>
+                            <select class="digit total" id="trainType" name="trainType" style="">
+                                <option value="">Select Train</option>
+                                <!--<option value="1">Perurail Titicaca</option>
+                                <option value="2">Belmond Andean Explorer</option>-->
+																									
+																											
+									
+																																				
+									
+                                <option value="1" selected="">Perurail Titicaca</option>
+                                <option value="2"> Belmond Andean Explorer</option>
+                            
+                            </select>
+                        </div>
+
+                        <div class="clearfix" style="position:relative">
+                            <div class="row-medium">
+                                <label class="required" for="fecViajeIda" id="text_departure">Departure</label>
+                                <!-- <input type="text" placeholder="Fecha Retorno" class="calendar"> -->
+                                <input type="text" class="required calendar hasDatepicker valid" readonly="1" value="03/02/2022" id="fecViajeIda" name="fecViajeIda">
+                                <span id="fecViajeIdaCalendario" style="float:right"></span>
+                            </div>
+                            <div class="row-medium right">
+                                <label class="required" for="fecViajeRegreso" id="text_return">Return</label>
+                                <!-- <input type="text" placeholder="Fecha Retorno" class="calendar"> -->
+                                <input type="text" class="required calendar hasDatepicker valid" readonly="1" value="03/02/2022" id="fecViajeRegreso" name="fecViajeRegreso" onclick="js_calendario_mostrar('fecViajeRegreso', 'fecViajeRegresoCalendario', 'fecViajeIda');">
+                                <span id="fecViajeRegresoCalendario" style="float:right"></span>
+                                <!-- <input type="text" placeholder="Fecha Ida" class="calendar"> -->
+                            </div>
+                        </div>
+                        <label class="checkbox hidden_flexible_day">
+                            <!-- No se puede mantener texto porque afecta estilos -->
+                            <input type="checkbox" checked="checked" class="flexible" name="indFlexibilidadFechas" id="indFlexibilidadFechas" value="1">
+                            <em booking_id="text_flexibility_of_dates" placeholder="Flexibility of dates">Flexibility of dates</em>
+                            <a href="#flexibility_of_dates_pop_up" rel="shadowbox;width=200px; height=150px;">?</a>
+                        </label>
+                        <div id="flexibility_of_dates_pop_up" class="none-text">
+                            <div class="content-infante">
+                                <div class="title" booking_id="text_flexibility_of_dates" placeholder="Flexibility of dates">Flexibility of dates</div>
+                                <p>Change search dates easily and quickly. You can change the dates you previously selected for others by simply clicking the date you want to change.</p>
+                            </div>
+                        </div>
+                        <div id="tablaAdultoNino" class="combo-personas clearfix">
+                            <div class="row-medium">
+                                <label id="text_adults">Adults (ages 12 and over)</label>
+                                <select class="required digit valid" id="numCupoAdulto" name="numCupoAdulto" style="">
+								
+                                    																														                                        <option value="1">
+                                            1                                        </option>
+                                    																														                                        <option value="2" selected="">
+                                            2                                        </option>
+                                    																														                                        <option value="3">
+                                            3                                        </option>
+                                    																														                                        <option value="4">
+                                            4                                        </option>
+                                    																														                                        <option value="5">
+                                            5                                        </option>
+                                    																														                                        <option value="6">
+                                            6                                        </option>
+                                    																														                                        <option value="7">
+                                            7                                        </option>
+                                    																														                                        <option value="8">
+                                            8                                        </option>
+                                    																														                                        <option value="9">
+                                            9                                        </option>
+                                                                    </select>
+                            </div>
+                            <div class="row-medium right">
+                                <label id="text_children">Children (ages 3 to 11)</label>
+                                <select class="required digit right valid" id="numCupoNino" name="numCupoNino" style=""><option value="0" selected="">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option></select>
+                            </div>
+                        </div>
+                        <label class="como-infante">
+                            <a href="" class="infante" booking_id="text_traveling_with_infants" placeholder="Are you travelling with infants (ages 0 to 2)?">Are you travelling with infants (ages 0 to 2)?</a>
+                            <a class="text" href="#traveling_with_infants_pop_up" rel="shadowbox;width=400px; height=300px;">?</a>
+                        </label>
+                        <div id="traveling_with_infants_pop_up" class="none-text">
+                            <div class="content-infante">
+                                <div class="title" booking_id="text_traveling_with_infants" placeholder="Are you travelling with infants (ages 0 to 2)?">Are you travelling with infants (ages 0 to 2)?</div>
+                                <p booking_id="textarea_traveling_with_infants_first" placeholder="Infants are considered to include all minors between the ages of 0 and 2. They shall not be charged for a ticket if, during the entire journey, they occupy the seat of the responsible adult and comply with all of the stipulations established herein.">Infants are considered to include all minors between the ages of 0 and 2. They shall not be charged for a ticket if, during the entire journey, they occupy the seat of the responsible adult and comply with all of the stipulations established herein.</p>
+                                <br>
+                                <p booking_id="textarea_traveling_with_infants_second" placeholder="Are you travelling with infants (ages 0 to 2)?
+
+Infants are considered to include all minors between the ages of 0 and 2. They shall not be charged for a ticket if, during the entire journey, they occupy the seat of the responsible adult and comply with all of the stipulations established herein.
+Infants occupying a separate seat shall be subject to the payment of a special rate equivalent to 50% of the normal ticket price.
+
+Click here to see the Policy on Infants and Children">Are you travelling with infants (ages 0 to 2)?
+
+Infants are considered to include all minors between the ages of 0 and 2. They shall not be charged for a ticket if, during the entire journey, they occupy the seat of the responsible adult and comply with all of the stipulations established herein.
+Infants occupying a separate seat shall be subject to the payment of a special rate equivalent to 50% of the normal ticket price.
+
+Click here to see the Policy on Infants and Children</p>
+                                <div class="enlace"><a href=""><span booking_id="text_traveling_with_infants_hyperlink" placeholder="Click here to see the Policy on Infants and Children">Click here to see the Policy on Infants and Children</span></a></div>
+                            </div>
+                        </div>
+                        <div id="tablaInfantes" class="combo-personas combo-infante clearfix">
+                            <div class="row-medium">
+                                <label booking_id="text_infant_with_seat" placeholder="Infants with seat">Infants with seat</label>
+                                <select class="required digit valid" id="numCupoInfanteConAsiento" name="numCupoInfanteConAsiento" style="">
+                                                                            <option value="0">
+                                            0                                        </option>
+                                                                            <option value="1">
+                                            1                                        </option>
+                                                                            <option value="2">
+                                            2                                        </option>
+                                                                            <option value="3">
+                                            3                                        </option>
+                                                                            <option value="4">
+                                            4                                        </option>
+                                                                            <option value="5">
+                                            5                                        </option>
+                                                                            <option value="6">
+                                            6                                        </option>
+                                                                            <option value="7">
+                                            7                                        </option>
+                                                                            <option value="8">
+                                            8                                        </option>
+                                                                    </select>
+                            </div>
+                            <div class="row-medium right">
+                                <label booking_id="text_infant_without_seat" placeholder="Infants without seats">Infants without seats</label>
+                                <select class="required digit valid" id="numCupoInfanteSinAsiento" name="numCupoInfanteSinAsiento" style="">
+                                                                            <option value="0">0</option>
+                                                                            <option value="1">1</option>
+                                                                            <option value="2">2</option>
+                                                                            <option value="3">3</option>
+                                                                            <option value="4">4</option>
+                                                                            <option value="5">5</option>
+                                                                            <option value="6">6</option>
+                                                                            <option value="7">7</option>
+                                                                            <option value="8">8</option>
+                                                                    </select>
+                            </div>
+                            <div style="clear:both">
+                                <input type="hidden" id="indBuscadorInfantes" name="indBuscadorInfantes" value="0">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="title" style="color: #1C58AC;" booking_id="text_passenger_quantity_rule" placeholder="Up to 9 tickets may be purchased per transaction">Up to 9 tickets may be purchased per transaction</div>
+                        </div>
+                    </div>
+
+                    <input type="hidden" value="a4be2038d5bae0414270092fa26ba308" id="idSesion" name="idSesion">
+                    <div class="center">
+                        <!-- Event OnClick enviarForm() -> buscar.js -->
+                        <input id="text_btn_search" class="btn  btn-continuar" type="button" onclick="enviarForm();" value="SEARCH">
+                    </div>
+                </form>
+            </div>
+            <div class="imagen"><div id="map"></div></div>
+        </div>
+    </section>
+    <footer>
+
+    <div class="brand">
+      <img class="imgfooterlogo" src="/ecommerce/www/img/paypal.jpg">
+    </div>
+    <div class="brand">
+      <img class="imgfooterlogo" src="/ecommerce/www/img/visa.jpg">
+    </div>
+    <div class="brand">
+      <img class="imgfooterlogo" src="/ecommerce/www/img/mastercar.jpg">
+    </div>
+     <div class="brand">
+      <img class="imgfooterlogo" src="/ecommerce/www/img/safety.jpg">
+     </div>  
+	 <div class="brand">
+      <img class="imgfooterlogo_diners" src="/ecommerce/www/img/diners_logo.jpg">
+     </div>  
+        <span>This site is secured by:    <img src="/ecommerce/www/img/seal_100-40_blue.png"></span>	
+<!--Start of LiveBeep Script-->
+<script type="text/javascript">
+    (function (d, s) {
+        u = (('https:' == d.location.protocol) ? 'https://' : 'http://') + 'www.livebeep.com/eye.js?duk=iEiq79uC8HM&lang=en';
+        if ((h = d.location.href.split(/#ev!/)[1]))
+            u += '?_e=' + h;
+        else if ((r = /.*\_evV=(\w+)\b.*/).test(c = d.cookie))
+            u += '?_v=' + c.replace(r, '$1');
+        d.write(unescape('%3Cscript src="' + u + '" type="text/javascript"%3E%3C/script%3E'));
+    })(document, 'script');
+</script><script src="https://www.livebeep.com/eye.js?duk=iEiq79uC8HM&amp;lang=en" type="text/javascript"></script>
+<!--End of LiveBeep Script-->
+</footer>
+</section>
+
+<!--<div id=div_calendario class="calendario ui-datepicker ui-widget ui-widget-content ui-corner-all" onClick="js_calendario_flg_ocultar(true);" style="position:absolute"></div>-->    <!-- /.content -->
+</section><script type="text/javascript" id="" src="//rum-static.pingdom.net/pa-5e3d33a011c07000080003b0.js"></script>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","220375522610602");fbq("track","PageView");</script>
+<noscript>
+ <img height="1" width="1" src="https://www.facebook.com/tr?id=220375522610602&amp;ev=PageView
+&amp;noscript=1">
+</noscript>
+<script type="text/javascript" id="">(function(a,e,b,f,g,c,d){a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};c=e.createElement(f);c.async=1;c.src="https://www.clarity.ms/tag/"+g+"?ref\x3dgtm2";d=e.getElementsByTagName(f)[0];d.parentNode.insertBefore(c,d)})(window,document,"clarity","script","9fyn27ucmh");</script>
+
+<!-- PushDataLayer-->
+<!-- /.PushDataLayer-->
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all ui-state-disabled" title="Prev"><span class="ui-icon ui-icon-circle-triangle-w">Prev</span></a><a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Next"><span class="ui-icon ui-icon-circle-triangle-e">Next</span></a><div class="ui-datepicker-title"><select class="ui-datepicker-month" data-handler="selectMonth" data-event="change"><option value="1" selected="selected">FEBRUARY</option><option value="2">MARCH</option><option value="3">APRIL</option><option value="4">MAY</option><option value="5">JUNE</option><option value="6">JULY</option><option value="7">AUGUST</option><option value="8">SEPTEMBER</option><option value="9">OCTOBER</option><option value="10">NOVEMBER</option><option value="11">DECEMBER</option></select><select class="ui-datepicker-year" data-handler="selectYear" data-event="change"><option value="2022" selected="selected">2022</option><option value="2023">2023</option></select></div></div><table class="ui-datepicker-calendar"><thead><tr><th><span title="Monday">MO</span></th><th><span title="Tuesday">TU</span></th><th><span title="Wednesday">WE</span></th><th><span title="Thursday">TH</span></th><th><span title="Friday">FR</span></th><th class="ui-datepicker-week-end"><span title="Saturday">SA</span></th><th class="ui-datepicker-week-end"><span title="Sunday">SU</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">1</span></td><td class=" ui-datepicker-unselectable ui-state-disabled undefined"><span class="ui-state-default">2</span></td><td class=" ui-datepicker-days-cell-over undefined ui-datepicker-current-day ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default ui-state-highlight ui-state-active ui-state-hover" href="#">3</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">4</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">5</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">6</a></td></tr><tr><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">7</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">8</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">9</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">10</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">11</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">12</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">13</a></td></tr><tr><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">14</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">15</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">16</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">17</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">18</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">19</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">20</a></td></tr><tr><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">21</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">22</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">23</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">24</a></td><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">25</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">26</a></td><td class=" ui-datepicker-week-end undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">27</a></td></tr><tr><td class=" undefined" data-handler="selectDay" data-event="click" data-month="1" data-year="2022"><a class="ui-state-default" href="#">28</a></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table></div><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon317642994717"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon161548237188" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=134621220&amp;tm=gtm002&amp;Ver=2&amp;mid=60644bf4-9557-451d-94fc-f6b45513fc76&amp;sid=92089f10851711ecb703a3ccb2a4a53d&amp;vid=9209da50851711ec94eac158a04470bf&amp;vids=0&amp;uach=pv%3D14.0.0&amp;pi=918639831&amp;lg=es-419&amp;sw=1366&amp;sh=768&amp;sc=24&amp;tl=PERURAIL%20-%20Machu%20Picchu%20awaits%20for%20you!&amp;p=https%3A%2F%2Fpax3.perurail.com%2Fecommerce%2Fwww%2Ftrains%3Fdate1%3D20220203%26date2%3D20220203%26type%3DRT%26route1%3D61%26route2%3D%26nadult%3D2%26nchild%3D0%26search%3D0%26service%3Dx%26lang%3D0%26trenselect%3D1%26tks%3Dcb5c77f06e2fe81ef093e1841b8d3235%26popbim%3D0%26activaredida%3D1%26activaredret%3D0%26idioma%3Den&amp;r=https%3A%2F%2Fwww.perurail.com%2F&amp;lt=1413&amp;evt=pageLoad&amp;msclkid=N&amp;sv=1&amp;rn=287845"></div><div id="sb-container" style="display: none; height: 604px; width: 1349px; visibility: hidden;"><div id="sb-overlay" style="background-color: rgb(0, 0, 0); opacity: 0;"></div><div id="sb-wrapper" style="top: 212px; left: 504px; width: 340px; visibility: hidden;"><div id="sb-title"><div id="sb-title-inner" style="margin-top: 26px;"></div></div><div id="sb-wrapper-inner" style="height: 140px;"><div id="sb-body"><div id="sb-body-inner"></div><div id="sb-loading" style="display: none;"><div id="sb-loading-inner"><span>loading</span></div></div></div></div><div id="sb-info"><div id="sb-info-inner" style="margin-top: 0px;"><div id="sb-counter"></div><div id="sb-nav"><a id="sb-nav-close" title="Close" onclick="Shadowbox.close()"></a><a id="sb-nav-next" title="Next" onclick="Shadowbox.next()" style="display: none;"></a><a id="sb-nav-play" title="Play" onclick="Shadowbox.play()" style="display: none;"></a><a id="sb-nav-pause" title="Pause" onclick="Shadowbox.pause()" style="display: none;"></a><a id="sb-nav-previous" title="Previous" onclick="Shadowbox.previous()" style="display: none;"></a></div></div></div></div></div></body></html>

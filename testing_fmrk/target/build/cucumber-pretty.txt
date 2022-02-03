@@ -1,0 +1,15 @@
+@PERU_RAIL
+Característica: AUTOMATIZACIÓN de reservas de tickets en www.perurail.com
+
+  @PERU_RAIL @PERU_RAIL_OK
+  Escenario: Reservar viajes en tren                [90m# src/test/resources/web/perurail.feature:16[0m
+    [32mDado [0m[32mque carga la pagina perurail "[0m[32m[1mchrome[0m[32m"[0m      [90m# PerurailStepDefinition.que_carga_la_pagina_perurail(String)[0m
+    [32mCuando [0m[32mselecciono el destino de "[0m[32m[1mOllantayTambo[0m[32m"[0m [90m# PerurailStepDefinition.selecciono_el_destino_de(String)[0m
+    [32mY [0m[32mselecciono la ruta de "[0m[32m[1mruta[0m[32m"[0m                  [90m# PerurailStepDefinition.selecciono_la_ruta_de(String)[0m
+    [32mY [0m[32mejecuto boton Find Train[0m                      [90m# PerurailStepDefinition.ejecuto_boton_Find_Train()[0m
+    [32mY [0m[32mescojo route[0m                                  [90m# PerurailStepDefinition.escojo_route()[0m
+    [32mY [0m[32mejecuto boton buscar[0m                          [90m# PerurailStepDefinition.ejecuto_boton_buscar()[0m
+    [32mY [0m[32mselecciono dia de ida[0m                         [90m# PerurailStepDefinition.selecciono_dia_de_ida()[0m
+    [32mY [0m[32mselecciona dia de regreso[0m                     [90m# PerurailStepDefinition.selecciona_dia_de_regreso()[0m
+    [32mY [0m[32mselecciono boton continuar[0m                    [90m# PerurailStepDefinition.selecciono_boton_continuar()[0m
+    [32mEntonces [0m[32mvalido mensaje[0m                         [90m# PerurailStepDefinition.valido_mensaje()[0m
